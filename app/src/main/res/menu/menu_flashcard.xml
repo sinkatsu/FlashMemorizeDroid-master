@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_flashcard"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/flashcard_shuffle">
+        <menu
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item
+                android:id="@+id/menu_shuffle"
+                android:title="@string/flashcard_shuffle">
+                <menu
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto">
+                    <item
+                        android:id = "@+id/action_shuffle_no_repeat"
+                        android:title = "@string/flashcard_no_repeat"
+                        android:onClick="shuffleCardsNoRepeat">
+
+                    </item>
+                    <item
+                        android:id = "@+id/action_shuffle_smart_learn"
+                        android:title = "@string/flashcard_smart_learn"
+                        android:onClick="shuffleCardsSmartLearn">
+
+                    </item>
+                    <item
+                        android:id = "@+id/action_shuffle_random_flip"
+                        android:title = "@string/flashcard_random_flip"
+                        android:onClick="shuffleCardsRandomFlip">
+
+                    </item>
+                    <item
+                        android:id = "@+id/action_shuffle_all_front"
+                        android:title = "@string/flashcard_flip_all_front"
+                        android:onClick="shuffleCardsAllFront">
+
+                    </item>
+                    <item
+                        android:id = "@+id/action_shuffle_all_back"
+                        android:title = "@string/flashcard_flip_all_back"
+                        android:onClick="shuffleCardsAllBack">
+
+                    </item>
+
+                    <item
+                        android:id = "@+id/action_shuffle_reset"
+                        android:title = "@string/flashcard_reset_deck"
+                        android:onClick="shuffleCardsReset">
+
+                    </item>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_flashcard_stats"
+                app:showAsAction="ifRoom|withText"
+                android:title="Study Stats"
+                android:onClick="currentCardStats">
+
+            </item>
+
+            <item
+                android:id="@+id/menu_flashcard_edit"
+                app:showAsAction="ifRoom|withText"
+                android:title="Edit Current Card"
+                android:onClick="editCard">
+
+            </item>
+            <item
+                android:id="@+id/menu_flashcard_add_pic"
+                app:showAsAction="ifRoom|withText"
+                android:title="Add Pic To Card"
+                android:onClick="addPic">
+            </item>
+
+            <item
+                android:id="@+id/menu_flashcard_delete_pic"
+                app:showAsAction="ifRoom|withText"
+                android:title="Delete Current Pic"
+                android:onClick="deletePic">
+            </item>
+
+            <item
+                android:id="@+id/menu_flashcard_new_card"
+                app:showAsAction="ifRoom|withText"
+                android:title="Append New Card"
+                android:onClick="newCard">
+            </item>
+
+            <item
+                android:id="@+id/menu_flashcard_remove_card"
+                app:showAsAction="ifRoom|withText"
+                android:title="Remove Current Card"
+                android:onClick="removeCard">
+            </item>
+
+            <item
+                android:id="@+id/menu_flashcard_add_to_deck"
+                app:showAsAction="ifRoom|withText"
+                android:title="Add to deck"
+                android:onClick="addCardToDeck">
+            </item>
+            <item
+                android:id="@+id/menu_home"
+                android:onClick="ExitActivity"
+                android:title="Home"
+                app:showAsAction="ifRoom|withText">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>

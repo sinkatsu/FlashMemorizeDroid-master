@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_main_edit"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/main_menu_open_deck"
+        app:showAsAction="ifRoom|withText">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item
+                android:id="@+id/menu_main_edit_delete"
+                android:onClick="editDeckList"
+                android:title="@string/menu_main_edit_delete"
+                app:showAsAction="ifRoom|withText">
+
+            </item>
+            <item
+                android:id="@+id/menu_main_new_deck"
+                android:onClick="newDeck"
+                android:title="New Empty Deck"
+                app:showAsAction="ifRoom|withText">
+
+            </item>
+            <item
+                android:id="@+id/menu_main_export"
+                android:onClick="exportAdk"
+                android:title="Export Deck"
+                app:showAsAction="ifRoom|withText">
+
+            </item>
+            <item
+                android:id="@+id/menu_rename_deck"
+                android:onClick="renameDeck"
+                android:title="Rename Deck"
+                app:showAsAction="ifRoom|withText">
+
+            </item>
+            <item
+                android:id="@+id/menu_merge_decks"
+                android:onClick="mergeDecks"
+                android:title="Merge Decks"
+                app:showAsAction="ifRoom|withText">
+
+            </item>
+            <item
+                android:id="@+id/menu_settings"
+                android:onClick = "LaunchSettings"
+                android:title="Settings"
+                app:showAsAction="ifRoom|withText">
+
+            </item>
+
+
+
+        </menu>
+    </item>
+
+</menu>

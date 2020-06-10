@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">FlashMemorize</string>
+    <string name="main_bttn">OpenFile</string>
+    <string name="main_msg">Welcome! Press the button below to open a file.</string>
+    <string name="new_line_keyword">&#032;-</string>
+    <string name="button_prev">PREV</string>
+    <string name="button_next">NEXT</string>
+    <string name="button_flip">FLIP</string>
+    <string name="button_good">GOOD</string>
+    <string name="button_bad">BAD</string>
+    <string name="text_view">Empty</string>
+    <string name="text_flip">" "</string>
+    <string name="flashcard_no_repeat">No Repeat</string>
+    <string name="flashcard_smart_learn">Smart learn</string>
+    <string name="flashcard_random_flip">Random Flip</string>
+    <string name="flashcard_flip_all_front">Flip All Front</string>
+    <string name="flashcard_flip_all_back">Flip All Back</string>
+    <string name="flashcard_reset_deck">Reset Deck</string>
+    <string name="main_menu_open_deck">Edit</string>
+    <string name="flashcard_shuffle">Shuffle</string>
+    <string name="flashcard_display_id_field">ID:</string>
+    <string name="flashcard_display_id_value">0</string>
+    <string name="flash_card_display_totalcards_field">Total Cards:</string>
+    <string name="flashcard_display_totalcards_value">0/0</string>
+    <string name="menu_main_edit_delete">Edit List</string>
+    <string name="flashcard_menu_stats">Current Card Stats</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="flashcard_dialog_number">Enter a number 0-500</string>
+    <string name="flashcard_dialog_title">Number of Cards</string>
+    <string name="cancel">CANCEL</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="flashcard_button_cancel">CANCEL</string>
+    <string name="flashcard_button_done">DONE</string>
+    <string name="flashcard_display_side_field">Side:</string>
+    <string name="flashcard_display_side_value">Front</string>
+    <string name="export">Export</string>
+    <string name="name_deck">Name Deck</string>
+    <string name="new_deck">New Deck</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
