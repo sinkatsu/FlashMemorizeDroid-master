@@ -257,6 +257,7 @@
                 android:foregroundGravity="top"
                 app:srcCompat="?attr/actionModeBackground" />
 
+
             <TextView
                 android:id="@+id/flashcard_text_flip"
                 android:layout_width="match_parent"
